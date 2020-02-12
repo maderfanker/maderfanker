@@ -1,0 +1,560 @@
+body {
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: black;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+/* Nav Bar */
+
+.navbar {
+  background-color: black;
+}
+
+.navbar-brand {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  color:white !important;
+}
+
+.nav-link {
+  font-size: 14px;
+  margin: 15px;
+  color: white !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.nav-link:hover {
+  color: #FD05BD !important;
+}
+
+.active .nav-link {
+  color: #FD05BD !important;
+}
+
+.menu-right-btn {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px !important;
+  letter-spacing: 3px;
+  color: white !important;
+  text-transform: uppercase;
+  padding: 10px 30px 10px 30px !important;
+  transition: all 200ms ease-in-out !important;
+}
+
+.menu-right-btn:hover {
+  border-color: #FD05BD !important;
+  background-color: #FD05BD;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px #FD05BD !important;
+}
+
+/* Hero Image */
+
+.site-content {
+  background-image: url("/img/hero_bg.png");
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+/* Hero Title */
+
+.site-title, .site-desc {
+  color: white;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 15px;
+}
+
+.site-title {
+  margin-top: 30%;
+  margin-bottom: 1%;
+  align-self:center;
+  font-size: 36px;
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.90) !important;
+}
+
+.site-desc {
+  font-size: 15px;
+  align-self:center;
+  margin-top: 15px;
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.80) !important;
+}
+
+.site-btn1 {
+  color: #FD05BD;
+  margin-bottom: 40%;
+  align-self:center;
+}
+
+.site-btn1:hover {
+  color: white;
+}
+
+/* Seccion Novedades */
+
+.section-1 .heading-1 {
+  margin-top: 5%;
+  color: white;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 10px;
+  margin-bottom: 5%;
+}
+
+.section-1 .row {
+  justify-content: center !important;
+  border-radius: 0px;
+}
+
+.section-1 .card {
+  border-radius: 0px;
+  border: none;
+  background-color: black;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.section-1 .card-img-top {
+  border-radius: 0px;
+}
+
+.section-1 .card-title {
+  font-size: 18px;
+  color: #B9B9B9;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.section-1 .card-text {
+  color: #868686;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.section-1 {
+  margin-bottom: 8%;
+}
+
+.inner {
+  overflow: hidden;
+}
+
+.inner img {
+  transition: all 0.3s ease-in-out;
+}
+
+.inner:hover img {
+  transform: scale(1.1);
+}
+
+/* Seccion Shows */
+
+.section-2 .conteiner-fluid {
+  background-image: url("/img/shows_bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.section-2 .heading-shows {
+  color: white;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 10px;
+  margin-top: 30%;
+  margin-bottom: 4%;
+  width: 70%;
+}
+
+.section-2 .txt-shows {
+  width: 70%;
+  color: #868686;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-bottom: 4%;
+}
+
+.section-2 .btn {
+  margin-bottom: 30%;
+  width: 30%;
+}
+
+/* Seccion Videos */
+
+.section-3 .heading-video {
+  margin-top: 5%;
+  color: white;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 10px;
+  margin-bottom: 1%;
+}
+
+.section-3 .subheading-video {
+  font-size: 15px;
+  color: #868686;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-bottom: 4%;
+}
+
+.section-3 .txt-video {
+  margin-top: 2%;
+  font-size: 15px;
+  color: #868686;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-bottom: 2%;
+}
+
+
+.section-3 .VideoEmbed {
+  width: 100%;
+  height: 100%;
+}
+
+.section-3 .embed-responsive {
+  max-width: 900px;
+  max-height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 10px solid rgb(163, 0, 122);
+}
+
+/* Seccion Discografia */
+
+.section-4 .heading-1 {
+  margin-top: 5%;
+  color: white;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 10px;
+  margin-bottom: 5%;
+}
+
+.section-4 .row {
+  justify-content: center !important;
+  border-radius: 0px;
+}
+
+.section-4 .card {
+  border-radius: 0px;
+  border: none;
+  background-color: black;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.section-4 .card-img-top {
+  border-radius: 0px;
+}
+
+.section-4 .card-title {
+  color: #B9B9B9;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.section-4 .card-text {
+  color: #868686;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.section-4 {
+  margin-bottom: 8%;
+}
+
+/* Galería de Fotos */
+
+.section-gallery .heading-1 {
+  margin-top: 5%;
+  color: white;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 10px;
+  margin-bottom: 5%;
+}
+
+.conteiner-carousel {
+  margin: 2% 30% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  float: none;
+}
+
+.carousel-control-next .carousel-control-next-icon {
+  color: #FD05BD;
+}
+
+/* Footer */
+
+.section-5 {
+  height: 300px;
+}
+
+.section-5 .heading-footer {
+  color: white;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 24px;
+  letter-spacing: 10px;
+}
+
+.section-5 .subheader {
+  color: white;
+  margin-top: 3% !important;
+  margin-bottom: 2% !important;
+  font-weight: lighter;
+  letter-spacing: 6px;
+  font-size: 15px;
+}
+
+.section-5 .form-control {
+  width: 250px;
+  height: 40px;
+  background-color: none;
+  border-color: #B9B9B9;
+  background-color: black;
+  margin-right: 10px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.section-5 .btn {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px !important;
+  letter-spacing: 3px;
+  color: white;
+  background-color: black;
+  border-color: white !important;
+  text-transform: uppercase;
+  padding: 10px 30px 10px 30px !important;
+  transition: all 200ms ease-in-out !important;
+}
+
+.section-5 .btn:hover {
+  border-color: #FD05BD !important;
+  background-color: #FD05BD;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px #FD05BD !important;
+  transition: all 200ms ease-in-out !important;
+}
+
+.section-5 .social {
+  margin-top: 4%;
+}
+
+.fab {
+  color: rgb(163, 0, 122) !important;
+}
+
+.section-5 h5 {
+  margin-top: 3%;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #868686;
+  margin-bottom: 1%;
+}
+
+/* Resposive  */
+
+@media screen and (max-width: 375px){
+
+  /* Hero Image */
+
+  .navbar-brand {
+    margin-top: 1%;
+    width: 60%;
+  }
+
+  .menu-right-btn {
+    margin-left: 4%;
+    justify-content: center;
+  }
+
+  .navbar-toggler {
+    border-radius: 0%;
+    background-color: rgb(34, 34, 34);
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    background-image: url(/img/hamb.svg);
+    background-size: 18px;
+  }
+
+  .navbar-nav {
+    align-self: center;
+    margin-top: 20%;
+  }
+  
+  .nav-item {
+    margin-top: 1%;
+    
+  }
+
+  .form-inline {
+    display: flex !important;
+    align-self: center !important;
+    margin-bottom: 5%;
+  }
+
+  .site-content .site-title {
+    text-align: center;
+    letter-spacing: 7px;
+    font-size: 30px;
+    margin-top: 50%;
+    padding: 15%;
+  }
+
+  .site-content .site-desc {
+    text-align: center;
+    width: 70%;
+  }
+
+  .site-content {
+    background-image: url("/img/hero_bg.png");
+    background-position: center !important;
+    background-size: cover;
+  }
+
+  /* Seccion Novedades */
+
+  .section-1 .heading-1 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .section-1 .card {
+    width: 18rem !important;
+  }
+  /* Seccion Shows */
+
+  .section-2 .conteiner-fluid {
+    background-image: url("/img/shows_bg.png");
+    background-position: center !important;
+
+  }
+  
+  .section-2 .heading-shows {
+    margin-left: 4%;
+    margin-top: 30%;
+    margin-bottom: 4%;
+    width: 70%;
+  }
+  
+  .section-2 .txt-shows {
+    width: 70%;
+    margin-bottom: 4%;
+    margin-left: 4%;
+  }
+  
+  .section-2 .btn {
+    margin-left: 4% !important;
+    margin-bottom: 30%;
+    width: 40%;
+  }
+
+  /* Seccion Videos */
+
+  .section-3 .heading-video {
+    margin-top: 20% !important;
+    margin-bottom: 1%;
+  }
+  
+  .section-3 .subheading-video {
+    font-size: 15px;
+    color: #868686;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-bottom: 10%;
+  }
+  
+  .section-3 .txt-video {
+    margin-top: 2%;
+    margin-bottom: 20% !important;
+  }
+
+  .section-3 .VideoEmbed {
+    margin-bottom: 5%;
+  }
+
+  /* Seccion Discografia */
+
+  .section-4 .heading-1 {
+    margin-top: 5%;
+    margin-bottom: 15%;
+  }
+
+  .section-4 .card {
+    margin-bottom: 10%;
+    width: 18rem !important;
+  }
+
+  /* Galería de Fotos */
+
+  .section-gallery .heading-1 {
+    margin-left: 5%;
+    margin-top: 5%;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 10px;
+    margin-bottom: 5%;
+    align-self: center !important;
+  }
+  
+  .conteiner-carousel .carousel-inner {
+    margin: 2% 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  .carousel-item {
+    margin: 0 auto;
+  }
+
+ /* Footer */
+
+ .section-5 .heading-footer {
+  margin-top: 5%;
+  margin-bottom: 1%;
+}
+
+.section-5 .subheader {
+  margin-top: 3% !important;
+  margin-bottom: 10% !important;
+}
+
+.section-5 .form-control {
+  margin-bottom: 5% !important;
+}
+
+.section-5 .social {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.section-5 h5 {
+  margin-bottom: 10%;
+}
+
+}
+
